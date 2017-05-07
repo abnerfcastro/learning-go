@@ -23,4 +23,5 @@ func main() {
 	fmt.Println("Using variables from other packages")
 	fmt.Println(utils.MyName)
 	fmt.Println(utils.WhoAmI())
+	fmt.Printf("Using function Sum: %d\n", utils.Sum(1, 2))
 }
