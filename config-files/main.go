@@ -7,6 +7,7 @@ import (
 	"github.com/vharitonsky/iniflags"
 )
 
+// go run main.go -config="dev.ini"
 func main() {
 
 	// flags to be read from dev.ini
